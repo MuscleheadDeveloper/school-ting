@@ -56,18 +56,7 @@
                                     <label for="inputAddress" class="form-label">Address<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                     <input type="text" class="form-control" id="inputAddress" name="address" placeholder="634 Main St" required value="{{old('address')}}">
                                 </div>
-                                <div class="col-3-md">
-                                    <label for="inputAddress2" class="form-label">Address 2</label>
-                                    <input type="text" class="form-control" id="inputAddress2" name="address2" placeholder="Apartment, studio, or floor" value="{{old('address2')}}">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="inputCity" class="form-label">City<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputCity" name="city" placeholder="Dhaka..." required value="{{old('city')}}">
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="inputZip" class="form-label">Zip<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputZip" name="zip" required value="{{old('zip')}}">
-                                </div>
+                       
                                 <div class="col-md-3">
                                     <label for="inputState" class="form-label">Gender<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                     <select id="inputState" class="form-select" name="gender" required>
@@ -110,7 +99,7 @@
                                 </div>
                                 <div class="col-5-md">
                                     <label for="inputIdCardNumber" class="form-label">Id Card Number<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                    <input type="text" class="form-control" id="inputIdCardNumber" name="id_card_number" placeholder="e.g. 2021-03-01-02-01 (Year Semester Class Section Roll)" required value="{{old('id_card_number')}}">
+                                    <input type="text" class="form-control" id="inputIdCardNumber" name="id_card_number" placeholder="e.g. 2022-03-01 (Year Class Roll)" required value="{{old('id_card_number')}}">
                                 </div>
                             </div>
                             <div class="row mt-4 g-3">

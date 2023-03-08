@@ -72,15 +72,9 @@
                                             <tr>
                                                 <th scope="row">Address:</th>
                                                 <td>{{$student->address}}</td>
-                                                <th>Address2:</th>
-                                                <td>{{$student->address2}}</td>
+                                        
                                             </tr>
-                                            <tr>
-                                                <th scope="row">City:</th>
-                                                <td>{{$student->city}}</td>
-                                                <th>Zip:</th>
-                                                <td>{{$student->zip}}</td>
-                                            </tr>
+                                    
                                             <tr>
                                                 <th scope="row">Blood Type:</th>
                                                 <td>{{$student->blood_type}}</td>

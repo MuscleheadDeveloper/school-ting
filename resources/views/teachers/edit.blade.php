@@ -40,18 +40,7 @@
                                 <label for="inputAddress" class="form-label">Address<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                 <input type="text" class="form-control" id="inputAddress" name="address" placeholder="634 Main St" required value="{{$teacher->address}}">
                             </div>
-                            <div class="col-3">
-                                <label for="inputAddress2" class="form-label">Address 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" name="address2" placeholder="Apartment, studio, or floor" value="{{$teacher->address2}}">
-                            </div>
-                            <div class="col-2">
-                                <label for="inputCity" class="form-label">City<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                <input type="text" class="form-control" id="inputCity" name="city" placeholder="Dhaka..." required value="{{$teacher->city}}">
-                            </div>
-                            <div class="col-2">
-                                <label for="inputZip" class="form-label">Zip<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
-                                <input type="text" class="form-control" id="inputZip" name="zip" required value="{{$teacher->zip}}">
-                            </div>
+                         
                             <div class="col-3">
                                 <label for="inputPhone" class="form-label">Phone<sup><i class="bi bi-asterisk text-primary"></i></sup></label>
                                 <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="+880 01......" required value="{{$teacher->phone}}">
